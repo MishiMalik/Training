@@ -1,0 +1,117 @@
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll > 40) {
+      $(".header-navbar").css("background-color", "#272f3b");
+      $(".header-navbar").css("height", "90px");
+    }
+
+    else {
+      $(".header-navbar").css("background-color", "transparent");
+      $(".header-navbar").css("height", "130px");
+    }
+  })
+});
+
+// =========================================upcoming-events
+$(document).ready(function () {
+  $(".upcoming-events").owlCarousel(
+    {
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      responsiveClass: true,
+      nav: true,
+
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 2,
+        },
+        1000: {
+          items: 3,
+        }
+      }
+    }
+  );
+});
+
+// =========================================upcoming-events
+$(document).ready(function () {
+  $(".testimonials").owlCarousel(
+    {
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      responsiveClass: true,
+      navText: ["<div class='nav-button owl-prev'><i class='bi bi-arrow-left'></i></div>", "<div class='nav-button owl-next'><i class='bi bi-arrow-right'></i></div>"],
+
+      nav: true,
+
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 2,
+        },
+        1000: {
+          items: 3,
+        }
+      }
+    }
+  );
+});
+
+// =========================================clientsscroller
+$(document).ready(function () {
+  $(".clients-scroller1").owlCarousel(
+    {
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      responsiveClass: true,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 5,
+        }
+      }
+    }
+  );
+});
+$(document).ready(function () {
+  $(".clients-scroller2").owlCarousel(
+    {
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      responsiveClass: true,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 2,
+        },
+        1000: {
+          items: 3,
+        }
+      }
+    }
+  );
+});

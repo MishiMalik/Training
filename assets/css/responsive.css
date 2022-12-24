@@ -1,0 +1,98 @@
+@media only screen and (max-width:991px){
+    .event-col{
+        padding-right: calc(var(--bs-gutter-x) * .5) !important;
+        padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    }
+    .events-heading{
+        min-height: 150px;
+    }
+}
+@media only screen and (max-width:767px){
+    .navbar-btn{
+        height: 50px;
+        padding: 0px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .header-navbar{
+        align-items: center !important;
+    }
+    .testimonials .owl-prev{
+        display: none;
+    }
+    .testimonials .owl-next{
+        display: none;
+    }
+    .section{
+        padding: 60px 0px !important;
+    }
+    .navbar-brand img{
+        margin-left: 10px;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100%;
+        padding-right: var(--bs-gutter-x, 1rem); 
+        padding-left: var(--bs-gutter-x,1rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header-navbar{
+        padding-left:0px !important ;
+        padding-right: 0px !important;
+        width: 100% !important;
+        height: 100px !important;
+        padding-top: 13px;
+    }
+    .navbar-heading{
+        font-size: 40px;
+    }
+    .navbar-toggler{
+        height: 45px;
+        width: 45px;
+        padding: 0px !important;
+    }
+}
+@media only screen and (max-width:500px){
+    .number-nav{
+      display: none;
+    }
+    .navbar-heading{
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .navbar-btn{
+padding: 20px !important;
+    }
+    .carousel-caption{
+        left: 15%;
+    }
+    .carousel-social{
+        top: 40%;
+    }
+    .main-heading{
+        font-size: 30px;
+    }
+    .second-heading{
+      
+        font-size: 18px;
+      
+    }
+    .subscribe-row{
+        flex-direction: column !important;
+
+    }
+    .news-input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .subscribe-btn{
+        width: 100%;
+        text-align: center;
+    }
+    .social-contact-row{
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+}
