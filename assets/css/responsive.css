@@ -8,14 +8,14 @@
     }
 }
 @media only screen and (max-width:767px){
-    .navbar-btn{
+    /* .navbar-btn{
         height: 50px;
         padding: 0px !important;
         display: flex;
         justify-content: center;
         align-items: center;
         text-decoration: none;
-    }
+    } */
     .header-navbar{
         align-items: center !important;
     }
@@ -55,6 +55,12 @@
     }
 }
 @media only screen and (max-width:500px){
+    .nav-link{
+        padding: 20px 30px !important;
+    }
+    .course-card .text{
+        padding: 45px 10px 30px 10px ;
+    }
     .number-nav{
       display: none;
     }

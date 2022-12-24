@@ -582,6 +582,7 @@ transition: all 2s;
     height: auto !important;
     width: 130px !important;
     cursor: pointer;
+    margin: 0px auto;
 }
 .clients-scroller1 .owl-nav,
 .clients-scroller2 .owl-nav{
