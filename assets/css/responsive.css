@@ -16,6 +16,18 @@
         align-items: center;
         text-decoration: none;
     } */
+    .tab{
+        flex-direction: column;
+    }
+    .tab button{
+        width: 100%;
+    }
+    .header-col{
+        padding: 0px !important;
+    }
+    .header-nav{
+        padding: 0px 15px !important;
+    }
     .header-navbar{
         align-items: center !important;
     }
@@ -29,7 +41,8 @@
         padding: 60px 0px !important;
     }
     .navbar-brand img{
-        margin-left: 10px;
+        /* margin-left: 10px; */
+        height: 60px;
     }
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         width: 100%;
@@ -55,6 +68,9 @@
     }
 }
 @media only screen and (max-width:500px){
+    .comment{
+        padding: 10px;
+    }
     .nav-link{
         padding: 20px 30px !important;
     }
