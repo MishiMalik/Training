@@ -397,6 +397,7 @@ body{
     right: 0;
     bottom: 0;
     z-index: 2;
+    background-color: red;
 }
 .upcoming-date{
     position: absolute;
@@ -1046,6 +1047,46 @@ padding: 6px 5px;
     /* ==========================================events details page */
     .events-img{
         background-image: url('../images/istockphoto-1340024049-170667a.jpg');
+        height: 70vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .power-img{
+        background-image: url('../images/paths-to-power.jpg');
+        height: 70vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .leader-img{
+        background-image: url('../images/leader.jpg');
+        height: 70vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .exam-img{
+        background-image: url('../images/exam.jpg');
+        height: 70vh;
+        width: 100%;
+        background-position:top;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .public-img{
+        background-image: url('../images/public.jpg');
         height: 70vh;
         width: 100%;
         background-position: center;
