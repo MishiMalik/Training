@@ -1136,3 +1136,7 @@ padding: 6px 5px;
         padding: 5px !important;
 
     }
+    .exam-logo{
+        height: 80px;
+        width: auto !important;
+    }
