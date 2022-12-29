@@ -12,7 +12,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 :root{
-    --primary:rgb(237, 203, 154);
+    /* --primary:rgb(237, 203, 154); */
+    --primary:#F58532;
     --black:#272f3b;
     --black-text:#404040;
     --gray:#ECECEC;
@@ -116,7 +117,7 @@ body{
     margin-left: auto;
 }
 .header-navbar{
-    height: 130px;
+    height: 100px;
     /* background-color: #272f3b; */
     display: flex;
     align-items: flex-end;
@@ -154,7 +155,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
-    color: white;
+    color: var(--primary);
     font-family:Arial, Helvetica, sans-serif;
 
 
@@ -162,21 +163,17 @@ body{
 .number-nav:hover{
     color: var(--primary);
 }
-.navbar-collapse{
-    background-color: var(--black);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 100%;
-}
+
+
 .nav-link{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: white !important;
-    padding: 20px 100px !important;
+    padding: 20px 15px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link:hover{
+    color: var(--primary) !important;
 }
 .active{
     color: var(--primary) !important;
@@ -187,7 +184,6 @@ body{
     width: fit-content;
     padding: 15px;
 }
-
 .bi-x{
     font-size: 25px;
     color: white;
@@ -205,10 +201,11 @@ body{
     animation: mover 10s;
     width: 100%;
     object-fit: cover;
+    object-position: top;
 }
 @keyframes mover {
-    0% { transform: scaleY(1)}
-    100% { transform: scaleY(1.1); }
+    0% { transform: scale(1);}
+    100% { transform: scale(1.1); }
 }
 .carousel-caption{
     position: absolute;
@@ -314,7 +311,7 @@ body{
     animation-duration: 1500;
 }
 .navbar-btn:hover{
-    background-color: #d8b88c !important;
+    background-color: var(--primary) !important;
 }
 @keyframes zoom-out {
     0% {
@@ -396,20 +393,24 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 2;
-    background-color: red;
+}
+.upcoming-card2{
+    object-fit: contain !important;
+}
+.upcoming-card2 img{
+    object-fit: contain !important;
 }
 .upcoming-date{
     position: absolute;
     top: 20px;
     right: 20px;
-    border: 1px solid white;
+    border: 1px solid var(--primary);
     padding: 7px;
 }
 .upcoming-date h1{
    font-size: 40px;
    font-weight: 600;
-   color: white !important;
+   color: var(--primary) !important;
    text-align: center;
 }
 .upcoming-date h3{ 
@@ -448,7 +449,7 @@ body{
 }
 .upcoming-card-details  h1{
     font-size: 18px;
-    color: #fff;
+    color: var(--primary);
     line-height: 1em;
     position: relative;
     margin-left: 0px;
@@ -593,7 +594,7 @@ transition: all 2s;
 .testimonials .owl-next::after{
     content: ' ';
     display: block;
-    color: #edcb9a;
+    color: var(--primary);
     background-color: rgba(255,255,255,0);
 }
 .testimonials .owl-next span{
@@ -712,7 +713,7 @@ transition: all 2s;
 .subscribe-btn{
     border-radius: 2px;
     z-index: 7;
-    background-color: rgb(237, 203, 154);
+    background-color:var(--primary);
     font-family: "Roboto Slab";
     cursor: pointer;
     outline: none;
@@ -746,7 +747,7 @@ transition: all 2s;
     animation-duration: 1500;
 }
 .subscribe-btn:hover{
-    background-color: #d8b88c !important;
+    background-color: var(--primary) !important;
 }
 .news-check{
     color: #8d8e90;
@@ -1076,7 +1077,17 @@ padding: 6px 5px;
         align-items: center;
     }
     .exam-img{
-        background-image: url('../images/exam.jpg');
+        background-image: url('../images/Sir\ Zeeshan\ 2.png');
+        height: 70vh;
+        width: 100%;
+        background-position:top;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .exam2-img{
+        background-image: url('../images/Sir\ Zeeshan\ 1.png');
         height: 70vh;
         width: 100%;
         background-position:top;
@@ -1140,3 +1151,111 @@ padding: 6px 5px;
         height: 80px;
         width: auto !important;
     }
+
+/* ==========================================latest news sideblock */
+.side-block{
+    width: 100%;
+
+}
+.side-block--header{
+    background-color: var(--primary);
+    padding: 10px;
+}
+.side-block--header h1{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.side-block-body{
+    padding: 10px 30px; 
+    border: 2px solid var(--gray);
+    border-top: none !important;
+}
+.side-block-body ul {
+    list-style: none;
+}
+.side-block-body ul li{
+    padding: 10px 10px;
+    border-bottom: 1px solid var(--gray);
+    color: rgb(141, 142, 144);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.side-block-body ul li a{
+    color: rgb(141, 142, 144);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.side-block-body ul li a:hover{
+    color: var(--primary);
+}
+.search-div{
+    position: relative;
+}
+.search-div input{
+    background-color: var(--gray);
+    font-size: 16px;
+    color: var(--black-text);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    width: 100%;
+}
+.search-div  i{
+    font-size: 16px;
+    color: var(--black-text);
+    position: absolute;
+    right: 20px;
+}
+.chat-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0 !important;
+}
+.chat-icon i{
+    font-size: 18px;
+    color: white;
+}
+.news-tag{
+    background-color: white;
+    border: 2px solid var(--primary);
+    font-size: 14px;
+    color: var(--primary);
+    padding:7px 6px 6px 6px;
+    line-height: 10px;
+    font-weight: 700;
+    margin: 5px;
+    cursor: pointer;
+}
+.news-tag:hover{
+    background-color: var(--primary);
+    color: white;
+}
+.news-social{
+    display: flex;
+    align-items: center;
+}
+.news-social-icon{
+    height: 35px;
+    width: 35px;
+    background-color: var(--primary);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.news-social-icon i{
+   font-size: 18px;
+   color: white;
+   line-height: 10px;
+}

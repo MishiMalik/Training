@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     else {
       $(".header-navbar").css("background-color", "transparent");
-      $(".header-navbar").css("height", "130px");
+      $(".header-navbar").css("height", "100px");
     }
   })
 });
