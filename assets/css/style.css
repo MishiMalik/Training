@@ -32,7 +32,7 @@ body{
     width: auto;
     color: rgb(141, 142, 144);
     text-align: inherit;
-    line-height: 37px;
+    /* line-height: 37px; */
     letter-spacing: 0px;
     font-weight: 400;
     font-size: 18px;
@@ -45,6 +45,9 @@ body{
     color: white !important;
 }
 /*  */
+.f-60{
+    font-size: 60px;
+}
 .f-40{
     font-size: 40px;
 }
@@ -105,17 +108,25 @@ body{
     -webkit-box-orient: vertical;
     white-space: normal;
   }
+  .text-ellipsis--4{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+  }
   .no-decoration{
     text-decoration: none;
   }
 /* ========================================================================Navbar */
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     width: 100%;
     padding-right: var(--bs-gutter-x, 2rem); 
     padding-left: var(--bs-gutter-x,2rem);
     margin-right: auto;
     margin-left: auto;
-}
+} */
 .header-navbar{
     height: 100px;
     /* background-color: #272f3b; */
@@ -127,8 +138,9 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    width: 95% !important;
+    width: 98.2% !important;
 }
+
 .navbar-toggler-icon{
     background-image: none !important;
     border: none !important;
@@ -362,6 +374,13 @@ body{
 }
 .social-line i:hover{
     color: var(--primary);
+}
+.dropdown-menu-header{
+    margin-left: 15px !important;
+    border: none !important;
+    padding: 10px !important;
+    color: white !important;
+    margin-top: -18px !important;
 }
 /* ===============================================upcoming events */
 .events-heading{
@@ -1258,4 +1277,87 @@ padding: 6px 5px;
    font-size: 18px;
    color: white;
    line-height: 10px;
+}
+.img-desktop{
+    display: block;
+}
+.img-mobile{
+    display: none;
+}
+/* ==================================================special-approach */
+.special-approach{
+    background: url('../images/special-approach.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.special-approach h1{
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.special-approach-btn--fill  a {
+    padding: 15px 50px;
+    background-color: var(--primary);
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid var(--primary);
+}
+.special-approach-btn--fill  a:hover{
+    background-color:white;
+    color: var(--primary);
+}
+.special-approach-btn--fill {
+    background-color: transparent !important;
+    border: none  !important;
+}
+.special-approach-btn--blank {
+    background-color: transparent !important;
+    border: none  !important;
+}
+.special-approach-btn--blank  a {
+    padding: 15px 50px;
+    background-color:transparent;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid white;
+}
+.special-approach-btn--blank  a:hover{
+    background-color: white;
+    color: var(--primary);
+}
+/* =============================================profile description */
+.description{
+    background-color: var(--primary);
+    padding: 50px ;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 10;
+}
+.description p{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    font-family:'Courgette', cursive ;
+}
+.profile-description-img{
+    background: url('../images/Group\ 1.jpg');
+    background-position: top;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.feature-img{
+    height: 80px;
+    width: auto;
 }

@@ -5,11 +5,15 @@ $(document).ready(function () {
     if (scroll > 40) {
       $(".header-navbar").css("background-color", "#272f3b");
       $(".header-navbar").css("height", "90px");
+      $(".header-navbar").css("box-shadow", "0 2px 10px 0 rgb(0 0 0 / 20%)");
+
     }
 
     else {
       $(".header-navbar").css("background-color", "transparent");
       $(".header-navbar").css("height", "100px");
+      $(".header-navbar").css("box-shadow", "none");
+
     }
   })
 });
