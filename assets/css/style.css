@@ -728,7 +728,16 @@ transition: all 2s;
     box-shadow: none !important;
     border: none !important;
 }
-
+.subscribe-btn a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  
+    text-align: inherit;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 18px; 
+}
 .subscribe-btn{
     border-radius: 2px;
     z-index: 7;
@@ -1351,11 +1360,12 @@ padding: 6px 5px;
     font-family:'Courgette', cursive ;
 }
 .profile-description-img{
-    background: url('../images/Group\ 1.jpg');
-    background-position: top;
-    height: 80vh;
+    background: url('../images/description.png');
+    background-position: center;
+    height: 98vh;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 15px;
 }
 .feature-img{
     height: 80px;

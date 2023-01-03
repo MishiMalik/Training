@@ -144,6 +144,10 @@
         text-decoration: none;
         border: 2px solid var(--primary);
     }
+    .description{
+        padding: 30px ;
+      
+    }
    
     .special-approach-btn--blank  a {
         padding: 10px 20px;
@@ -181,7 +185,7 @@
         line-height: 28px;
     }
     .navbar-btn{
-padding: 20px !important;
+padding: 15px 35px !important;
     }
     .carousel-caption{
         left: 15%;
@@ -190,7 +194,7 @@ padding: 20px !important;
         top: 40%;
     }
     .main-heading{
-        font-size: 30px;
+        font-size: 28px;
     }
     .second-heading{
       
