@@ -87,11 +87,12 @@ body{
 .text-black{
    color: var(--black-text) !important;
 }
-/* .text-ellipsis--1{
+.text-ellipsis--1{
     overflow:hidden;
     text-overflow:ellipsis;
     white-space: nowrap;
-  } */
+    width: 200px;
+  }
 .text-ellipsis--2{
     text-overflow:ellipsis;
     overflow:hidden;

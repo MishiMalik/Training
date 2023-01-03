@@ -133,7 +133,9 @@
         font-size: 25px;
    
       }
-
+      .video-col{
+        padding-right: 12px !important;
+      }
       .public-img{
         background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/pictures\ for\ Upcoming\ Events/the\ art.png');
         background-position:top ;
