@@ -133,6 +133,25 @@
         font-size: 25px;
    
       }
+
+      .public-img{
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/pictures\ for\ Upcoming\ Events/the\ art.png');
+        background-position:top ;
+        background-size: cover;
+    }
+    .w-lg-75{
+        width: 100% !important;
+    }
+    .power-img{
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/pictures\ for\ Upcoming\ Events/paths\ to\ power (2).jpg');
+        background-position:top ;
+        background-size: cover;
+    }
+    .leader-img{
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../images/pictures\ for\ Upcoming\ Events/essential-manners.jpg');
+        background-position:top ;
+        background-size: cover;
+    }
 }
 @media only screen and (max-width:500px){
     .special-approach-btn--fill  a {
@@ -169,7 +188,7 @@
         padding: 13px 15px !important ;
     }
     .comment{
-        padding: 10px;
+        padding:20px 10px;
     }
     .nav-link{
         padding: 20px 30px !important;
@@ -191,7 +210,7 @@ padding: 15px 35px !important;
         left: 15%;
     }
     .carousel-social{
-        top: 40%;
+        top: 38%;
     }
     .main-heading{
         font-size: 28px;
@@ -217,4 +236,10 @@ padding: 15px 35px !important;
         justify-content: center !important;
         margin-top: 20px;
     }
+    .profile-description-img{
+        background: url('../images/description.png');
+        background-position:right;
+       
+    }
+ 
 }

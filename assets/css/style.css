@@ -346,7 +346,7 @@ body{
 }
 .carousel-social{
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 4%;
 
 }
@@ -848,15 +848,16 @@ transition: all 2s;
 }
 /* =====================================================courses description */
 .courses-img{
-    background-image: url('../images/header_bg.jpg');
-    height: 70vh;
+    background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../images/header_bg.jpg');
+    height: 85vh;
     width: 100%;
-    background-position: center;
+    background-position:top ;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-repeat: no-repeat;
+    
 }
 .courses-sidebar{
     background-color: var(--gray) !important;
@@ -1085,54 +1086,84 @@ padding: 6px 5px;
         align-items: center;
     }
     .power-img{
-        background-image: url('../images/paths-to-power.jpg');
-        height: 70vh;
+        background-image: url('../images/pictures\ for\ Upcoming\ Events/powerW.png');
+        height: 85vh;
         width: 100%;
-        background-position: center;
+        background-position:top ;
         background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-repeat: no-repeat;
     }
     .leader-img{
-        background-image: url('../images/leader.jpg');
-        height: 70vh;
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../images/pictures\ for\ Upcoming\ Events/manner.png');
+        height: 85vh;
         width: 100%;
-        background-position: center;
+        background-position:top ;
         background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-repeat: no-repeat;
+    }
+    .exective-img {
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../images/pictures\ for\ Upcoming\ Events/Picture Executive Presence & Leadership.JPG');
+        height: 85vh;
+        width: 100%;
+        background-position:top;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+    .advance-img{
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../images/pictures\ for\ Upcoming\ Events/Essential\ Manners\ For\ Men.JPG');
+        height: 85vh;
+        width: 100%;
+        background-position:center ;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
     }
     .exam-img{
-        background-image: url('../images/Sir\ Zeeshan\ 2.png');
-        height: 70vh;
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)),url('../images/pictures\ for\ Upcoming\ Events/ew.png');
+        height: 85vh;
         width: 100%;
-        background-position:top;
+        background-position:right ;
         background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-repeat: no-repeat;
     }
     .exam2-img{
-        background-image: url('../images/Sir\ Zeeshan\ 1.png');
-        height: 70vh;
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)),url('../images/pictures\ for\ Upcoming\ Events/ew.png');
+        height: 85vh;
         width: 100%;
-        background-position:top;
+        background-position:right ;
         background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-repeat: no-repeat;
     }
     .public-img{
-        background-image: url('../images/public.jpg');
-        height: 70vh;
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/pictures\ for\ Upcoming\ Events/artW.png');
+        height: 85vh;
         width: 100%;
-        background-position: center;
+        background-position:top ;
         background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-repeat: no-repeat;
+    }
+    .w-lg-75{
+        width: 75% !important;
     }
     .about-details{
         display: flex;
