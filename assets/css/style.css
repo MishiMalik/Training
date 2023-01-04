@@ -1394,7 +1394,7 @@ padding: 6px 5px;
 .profile-description-img{
     background: url('../images/description.png');
     background-position: center;
-    height: 98vh;
+    height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 15px;

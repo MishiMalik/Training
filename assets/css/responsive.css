@@ -154,6 +154,14 @@
         background-position:top ;
         background-size: cover;
     }
+    .profile-description-img{
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../images/description-mobile.png');
+        background-position: center;
+        height: 98vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 15px;
+    }
 }
 @media only screen and (max-width:500px){
     .special-approach-btn--fill  a {
@@ -238,10 +246,8 @@ padding: 15px 35px !important;
         justify-content: center !important;
         margin-top: 20px;
     }
-    .profile-description-img{
-        background: url('../images/description.png');
-        background-position:right;
-       
+    .books-text{
+        margin-top: 0px;
     }
  
 }
