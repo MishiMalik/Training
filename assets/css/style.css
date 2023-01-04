@@ -12,8 +12,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 :root{
-    --primary:rgb(237, 203, 154);
-    /* --primary:#F58532; */
+    /* --primary:rgb(237, 203, 154); */
+    --primary:#D9945D;
     --black:#272f3b;
     --black-text:#404040;
     --gray:#ECECEC;
@@ -289,7 +289,7 @@ body{
 }
 .navbar-btn{
     z-index: 7;
-    background-color: rgb(237, 203, 154);
+    background-color: var(--primary);
     font-family: "Roboto Slab";
     text-transform: lowercase;
     cursor: pointer;
