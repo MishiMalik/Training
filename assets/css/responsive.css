@@ -162,6 +162,17 @@
         background-repeat: no-repeat;
         padding: 15px;
     }
+    .special-approach{
+        background: linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/coaching-mobile.png');
+        background-size: cover;
+        background-position:top;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
 }
 @media only screen and (max-width:500px){
     .special-approach-btn--fill  a {

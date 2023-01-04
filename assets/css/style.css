@@ -1327,9 +1327,9 @@ padding: 6px 5px;
 }
 /* ==================================================special-approach */
 .special-approach{
-    background: url('../images/special-approach.jpg');
+    background: linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/coaching.png');
     background-size: cover;
-    background-position: center;
+    background-position:top;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
