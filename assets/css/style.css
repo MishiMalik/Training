@@ -1408,6 +1408,7 @@ padding: 6px 5px;
 .contact-sec{
     background: url('../images/home4-bg4.jpg');
     padding: 80px 0px;
+    background-position: center;
 }
 .contact-icon{
     height: 60px;
