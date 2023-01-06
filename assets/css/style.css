@@ -312,7 +312,7 @@ body{
     letter-spacing: 0px;
     font-weight: 700;
     font-size: 18px;
-    border-color: rgb(237, 203, 154);
+    border-color: var(--primary);
     border-style: solid;
     border-width: 2px;
     padding: 22px 67px 23px;
@@ -764,7 +764,7 @@ transition: all 2s;
     letter-spacing: 0px;
     font-weight: 700;
     font-size: 18px;
-    border-color: rgb(237, 203, 154);
+    border-color: var(--primary);
     border-style: solid;
     border-width: 2px;
     padding: 15px 67px;
@@ -1372,7 +1372,7 @@ padding: 6px 5px;
     color: white;
     font-weight: 600;
     text-decoration: none;
-    border: 2px solid white;
+    border: 2px solid white !important;
 }
 .special-approach-btn--blank  a:hover{
     background-color: white;
@@ -1393,8 +1393,8 @@ padding: 6px 5px;
     font-family:'Courgette', cursive ;
 }
 .profile-description-img{
-    background: url('../images/description.png');
-    background-position: center;
+    background: url('../images/bg1\ \(2\).png');
+    background-position:top;
     height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1409,6 +1409,7 @@ padding: 6px 5px;
     background: url('../images/home4-bg4.jpg');
     padding: 80px 0px;
     background-position: center;
+    background-size: cover;
 }
 .contact-icon{
     height: 60px;

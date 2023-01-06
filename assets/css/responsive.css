@@ -155,9 +155,9 @@
         background-size: cover;
     }
     .profile-description-img{
-        background:linear-gradient( to left,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../images/description-mobile.png');
-        background-position: center;
-        height: 98vh;
+        background:linear-gradient( to left,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../images/bg1\ \(1\).png');
+        background-position: top;
+        height: 500px;
         background-size: cover;
         background-repeat: no-repeat;
         padding: 15px;
