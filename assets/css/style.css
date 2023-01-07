@@ -161,10 +161,23 @@ body{
     background-color: var(--primary);
 }
 .navbar-brand img{
-    height: 75px;
+    height: 45px;
     width: auto;
-    /* margin-left: 100px; */
+    margin-left: 100px;
 }
+.navbar-collapse{
+    background-color: var(--black);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    padding-top: 20px;
+    overflow-y: auto;
+    padding-left: 100px;
+} 
 .number-nav{
     font-size: 18px;
     font-weight: 600;
