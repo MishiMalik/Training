@@ -73,12 +73,19 @@
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        margin-top: -10px;
+        margin-top: -4px;
     }
     .navbar-brand {
         /* height: 35px; */
         width: auto;
         margin-left: 0px;
+    }
+    .qualification span{
+        color: white !important;
+    }
+    .logo-zeeshan{
+        height: 30px !important;
+        margin-top: 5px;
     }
     .text-logo{
         display: none;

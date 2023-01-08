@@ -128,6 +128,10 @@ body{
     margin-right: auto;
     margin-left: auto;
 } */
+.logo-zeeshan{
+    height: 40px !important;
+    width: auto !important;
+}
 .header-navbar{
     height: 100px;
     /* background-color: #272f3b; */
