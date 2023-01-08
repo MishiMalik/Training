@@ -160,10 +160,22 @@ body{
     width: 65px;
     background-color: var(--primary);
 }
-.navbar-brand img{
-    height: 45px;
+.navbar-brand {
+    /* height: 45px; */
     width: auto;
     margin-left: 100px;
+}
+.navbar-brand a{
+    text-decoration: none !important;
+}
+.sign-logo{
+    font-family: 'Allura', cursive;
+   font-size: 40px;
+   color: var(--primary);
+}
+.text-logo{
+    color: white;
+    font-size: 30px;
 }
 .navbar-collapse{
     background-color: var(--black);

@@ -73,12 +73,19 @@
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        padding-top: 10px;
+        margin-top: -10px;
     }
-    .navbar-brand img{
-        height: 35px;
+    .navbar-brand {
+        /* height: 35px; */
         width: auto;
         margin-left: 0px;
+    }
+    .text-logo{
+        display: none;
+        font-size: 30px
+    }
+    .sign-div{
+        margin-top: 0px !important;
     }
     .img-desktop{
         display: none;

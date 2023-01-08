@@ -6,14 +6,14 @@ $(document).ready(function () {
       $(".header-navbar").css("background-color", "#272f3b");
       $(".header-navbar").css("height", "90px");
       $(".header-navbar").css("box-shadow", "0 2px 10px 0 rgb(0 0 0 / 20%)");
-      $(".logo-toggle").css("padding-top", "0px");
+      // $(".logo-toggle").css("padding-top", "0px");
     }
 
     else {
       $(".header-navbar").css("background-color", "transparent");
       $(".header-navbar").css("height", "100px");
       $(".header-navbar").css("box-shadow", "none");
-      $(".logo-toggle").css("padding-top", "10px");
+      // $(".logo-toggle").css("padding-top", "10px");
     }
   })
 });
