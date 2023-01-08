@@ -177,6 +177,13 @@ body{
     color: white;
     font-size: 30px;
 }
+.qualification{
+    font-size: 15px;
+    animation: fadeInUp 1s ease ;
+    animation-delay: 5000;
+    animation-duration: 1500;
+   font-weight: 600;
+}
 .navbar-collapse{
     background-color: var(--black);
     position: absolute;
