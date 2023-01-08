@@ -179,7 +179,8 @@ body{
 }
 .text-logo{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 600;
 }
 .qualification{
     font-size: 15px;
