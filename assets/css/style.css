@@ -290,7 +290,7 @@ body{
     line-height: 65px;
     letter-spacing: -1px;
     font-weight: 700;
-    font-size: 58px;
+    font-size: 50px;
     transform-origin: 50% 50%;
     opacity: 1;
     transform: translate(0px, 0px);
@@ -606,11 +606,11 @@ transition: all 2s;
     justify-content: center;
     align-items: center;
     font-size: 26px;
-   top: -16%;
+   top: -22%;
    right: 10%;
 }
 .course-card .text{
-    padding:45px 40px 40px 40px;
+    padding:50px 40px 30px 40px;
     position: relative;
     z-index: 10;
 }
@@ -619,6 +619,13 @@ transition: all 2s;
     font-size: 25px;
     font-weight: 600;
     text-decoration: none;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    height: 75px;
 }
 .course-card .text a:hover{
     color: var(--primary);
