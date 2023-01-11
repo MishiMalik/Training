@@ -1231,8 +1231,8 @@ padding: 6px 5px;
         list-style: none;
     }
     .coach-image{
-        height: 60px !important;
-        width: 60px !important;
+        height: 70px !important;
+        width: 70px !important;
         border: 2px solid var(--primary);
         padding: 10px !important;
         border-radius: 100%;
@@ -1243,8 +1243,8 @@ padding: 6px 5px;
         align-items: center;
     }
     .coach-image img{
-        height: 58px !important;
-        max-width: 58px !important;
+        height: 68px !important;
+        max-width: 68px !important;
         border-radius: 100%;
         display: flex;
         flex-shrink: 0;
