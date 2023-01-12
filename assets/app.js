@@ -1,4 +1,10 @@
+// =======================================hide-show
+function hide() {
+  var element = document.getElementById("navbarSupportedContent");
+  element.classList.add("hide");
+}
 
+// ============
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
