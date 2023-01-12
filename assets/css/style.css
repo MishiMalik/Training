@@ -724,6 +724,10 @@ transition: all 2s;
     margin-top: 50px;
 }
 /* =============================================featured cients */
+.buttonnav{
+    background-color: transparent;
+    border: none;
+}
 .client-logo{
     height: auto !important;
     width: 150px !important;
