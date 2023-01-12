@@ -20,7 +20,7 @@ body{
     --gray-dark:#ececec;
 }
 .bg-dark2{
-    background-color: var(--black);
+    background-color: var(--primary);
 }
 .main-heading{
     font-size: 40px;
@@ -739,6 +739,7 @@ transition: all 2s;
     width:auto !important;
     cursor: pointer;
     margin: 0px auto;
+    /* background-color: white; */
 }
 .clients-scroller1 .owl-item{
     min-height: 100px !important;
