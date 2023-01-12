@@ -19,6 +19,9 @@ body{
     --gray:#ECECEC;
     --gray-dark:#ececec;
 }
+.bg-dark2{
+    background-color: var(--black);
+}
 .main-heading{
     font-size: 40px;
     font-weight: 700;
@@ -723,10 +726,23 @@ transition: all 2s;
 /* =============================================featured cients */
 .client-logo{
     height: auto !important;
-    width: 130px !important;
+    width: 150px !important;
     cursor: pointer;
     margin: 0px auto;
 }
+.client-logo2{
+    height: 50px !important;
+    width:auto !important;
+    cursor: pointer;
+    margin: 0px auto;
+}
+.clients-scroller1 .owl-item{
+    min-height: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .clients-scroller1 .owl-nav,
 .clients-scroller2 .owl-nav{
     display: none;
