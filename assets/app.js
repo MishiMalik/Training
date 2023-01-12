@@ -1,9 +1,14 @@
 // =======================================hide-show
-function hide() {
-  var element = document.getElementById("navbarSupportedContent");
-  element.classList.add("hide");
-}
-
+// function hide() {
+//   var element = document.getElementById("navbarSupportedContent");
+//   element.classList.add("hide");
+// }
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarSupportedContent')
+const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
 // ============
 $(document).ready(function () {
   $(window).scroll(function () {

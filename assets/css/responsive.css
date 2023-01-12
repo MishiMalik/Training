@@ -64,7 +64,11 @@
     .testimonials{
         margin-top: 0px !important;
     }
-   
+    .navbar-toggler{
+        height: 45px;
+        width: 45px;
+        padding: 0px !important;
+    }
 }
 @media only screen and (max-width:767px){
     .logo-toggle{
@@ -163,11 +167,7 @@
     .navbar-heading{
         font-size: 40px;
     }
-    .navbar-toggler{
-        height: 45px;
-        width: 45px;
-        padding: 0px !important;
-    }
+   
     .special-approach h1{
         font-size: 25px;
    
