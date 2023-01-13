@@ -22,6 +22,10 @@ body{
 .bg-dark2{
     background-color: var(--primary);
 }
+.roboto-text{
+    font-family: 'Roboto', sans-serif !important;
+
+}
 .main-heading{
     font-size: 40px;
     font-weight: 700;
@@ -566,12 +570,13 @@ body{
 .video-col{
     padding-right: 30px !important;
 }
-.video-text h3{
+/* .video-text h3{
     font-size: 16px;
-    font-weight: 600;
-}
+    font-weight: 500;
+    text-align: justify;
+} */
 .video-text p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     text-align: justify;
     color: #8d8e90;
