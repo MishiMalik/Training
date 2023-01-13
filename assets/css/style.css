@@ -654,7 +654,7 @@ transition: all 2s;
 }
 /* ===========================================Testimonials */
 .testimonials{
-    background-color: white;
+    background-color: var(--primary);
     padding: 0px 0px;
     margin-top: -180px;
     height: 100%;
@@ -684,7 +684,10 @@ transition: all 2s;
 } 
 .testimonials-card{
     padding: 30px 20px;
-    background-color:white;
+    background-color:var(--primary);
+}
+.testimonials-card i{
+color: rgb(187, 187, 6);
 }
 .testimonials-card .testimonials-dp{
     height: 70px;
@@ -704,11 +707,11 @@ transition: all 2s;
 }
 .testimonials-card h1{
     font-size: 20px;
-    font-weight: 500;
-    color: var(--black);
+    font-weight: 700;
+    color: white;
 }
 .testimonials-card p{
-    color:  #8d8e90;
+    color:  white;
     font-size: 14px;
     font-weight: 500;
 }
@@ -721,7 +724,7 @@ transition: all 2s;
     margin-top: -15% !important;
 }
 .books-text{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 /* =============================================featured cients */
 .buttonnav{
