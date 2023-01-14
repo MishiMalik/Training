@@ -221,6 +221,10 @@
         align-items: center;
         padding: 20px;
     }
+    .description-img{
+        height: 100% !important;
+        width: auto !important;
+    }
 }
 @media only screen and (max-width:500px){
     .special-approach-btn--fill  a {

@@ -20,7 +20,7 @@ body{
     --gray-dark:#ececec;
 }
 .bg-dark2{
-    background-color: var(--primary);
+    background-color: var(--black);
 }
 .roboto-text{
     font-family: 'Roboto', sans-serif !important;
