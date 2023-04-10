@@ -1,5 +1,5 @@
-@media only screen and (max-width:1200px){
-    .navbar-collapse{
+@media only screen and (max-width:1200px) {
+    .navbar-collapse {
         background-color: var(--black);
         position: absolute;
         top: 0px;
@@ -11,31 +11,37 @@
         padding-top: 20px;
         overflow-y: auto;
         padding-left: 0px;
-    } 
-     .nav-link{
+    }
+
+    .nav-link {
         font-size: 20px;
         font-weight: 500;
         color: white !important;
         padding: 20px 100px !important;
     }
-    .header-carousel{
+
+    .header-carousel {
         padding: 0px !important;
     }
-    .events-col{
+
+    .events-col {
         padding: 0px !important;
     }
-    .dropdown-menu{
-        position: absolute ;
+
+    .dropdown-menu {
+        position: absolute;
         margin-left: 100px !important;
         width: fit-content;
         padding: 15px;
     }
-    .number-nav-div{
-       text-align: center;
-       align-self: center;
-    
+
+    .number-nav-div {
+        text-align: center;
+        align-self: center;
+
     }
-    .dropdown-menu-header{
+
+    .dropdown-menu-header {
         margin-left: 35px !important;
         background-color: transparent !important;
         border: none !important;
@@ -43,44 +49,53 @@
         color: white !important;
         margin-top: 10px !important;
     }
-    .dropdown-menu-header li a{
+
+    .dropdown-menu-header li a {
         color: white !important;
     }
-    .header-navbar{
+
+    .header-navbar {
         width: 100% !important;
         height: 70px !important;
         /* padding-top: 13px; */
-        padding: 13px 25px !important ;
+        padding: 13px 25px !important;
     }
-    .testimonials{
-      
+
+    .testimonials {
+
         margin-top: -60px;
     }
+
     /* .description-img{
         height: 550px !important;
         width: auto !important;
     } */
-    .navbar-toggler{
+    .navbar-toggler {
         height: 45px;
         width: 45px;
         padding: 0px !important;
     }
 }
-@media only screen and (max-width:991px){
-    .event-col{
+
+@media only screen and (max-width:991px) {
+    .event-col {
         padding-right: calc(var(--bs-gutter-x) * .5) !important;
         padding-left: calc(var(--bs-gutter-x) * .5) !important;
     }
-    .events-heading{
+
+    .events-heading {
         min-height: 120px;
     }
-    .testimonials{
+
+    .testimonials {
         margin-top: 0px !important;
     }
-   
+    .grid-sizer,
+    .grid-item { width: 50%;}
 }
-@media only screen and (max-width:767px){
-    .logo-toggle{
+
+@media only screen and (max-width:767px) {
+    .logo-toggle {
         display: flex;
         flex-direction: row-reverse;
         width: 100%;
@@ -88,46 +103,57 @@
         align-items: center;
         margin-top: -4px;
     }
+
     .navbar-brand {
         /* height: 35px; */
         width: auto;
         margin-left: 0px;
     }
-    .main-heading-sm{
+
+    .main-heading-sm {
         font-size: 18px !important;
         font-weight: 600;
         text-align: center;
         padding-top: 100px;
     }
-    .second-heading-sm{
+
+    .second-heading-sm {
         font-size: 16px !important;
         font-weight: 500;
         text-align: center;
     }
-    .qualification span{
+
+    .qualification span {
         color: white !important;
     }
-    .logo-zeeshan{
+
+    .logo-zeeshan {
         height: 30px !important;
         margin-top: 5px;
     }
-    .text-logo{
+
+    .text-logo {
         display: none;
         font-size: 30px
     }
-    .sign-div{
+
+    .sign-div {
         margin-top: 0px !important;
     }
-    .img-desktop{
+
+    .img-desktop {
         display: none;
     }
-    .img-mobile{
+
+    .img-mobile {
         display: block;
     }
-    .carousel-item img{
-      
-        object-position:left;
+
+    .carousel-item img {
+
+        object-position: left;
     }
+
     /* .navbar-btn{
         height: 50px;
         padding: 0px !important;
@@ -136,34 +162,43 @@
         align-items: center;
         text-decoration: none;
     } */
-    .tab{
+    .tab {
         flex-direction: column;
     }
-    .tab button{
+
+    .tab button {
         width: 100%;
     }
-    .header-col{
+
+    .header-col {
         padding: 0px !important;
     }
-    .header-nav{
+
+    .header-nav {
         padding: 0px 15px !important;
     }
-    .header-navbar{
+
+    .header-navbar {
         align-items: center !important;
     }
-    .testimonials .owl-prev{
+
+    .testimonials .owl-prev {
         display: none;
     }
-    .testimonials .owl-next{
+
+    .testimonials .owl-next {
         display: none;
     }
-    .section{
+
+    .section {
         padding: 60px 0px !important;
     }
-    .navbar-brand img{
+
+    .navbar-brand img {
         /* margin-left: 10px; */
         /* height: 60px; */
     }
+
     /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         width: 100%;
         padding-right: var(--bs-gutter-x, 1rem); 
@@ -171,49 +206,56 @@
         margin-right: auto;
         margin-left: auto;
     } */
-    
-    
-    .navbar-heading{
+
+
+    .navbar-heading {
         font-size: 40px;
     }
-   
-    .special-approach h1{
+
+    .special-approach h1 {
         font-size: 25px;
-   
-      }
-      .video-col{
+
+    }
+
+    .video-col {
         padding-right: 12px !important;
-      }
-      .public-img{
-        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/pictures\ for\ Upcoming\ Events/the\ art.png');
-        background-position:top ;
+    }
+
+    .public-img {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/pictures\ for\ Upcoming\ Events/the\ art.png');
+        background-position: top;
         background-size: cover;
     }
-    .w-lg-75{
+
+    .w-lg-75 {
         width: 100% !important;
     }
-    .power-img{
-        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/pictures\ for\ Upcoming\ Events/paths\ to\ power (2).jpg');
-        background-position:top ;
+
+    .power-img {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/pictures\ for\ Upcoming\ Events/paths\ to\ power (2).jpg');
+        background-position: top;
         background-size: cover;
     }
-    .leader-img{
-        background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../images/pictures\ for\ Upcoming\ Events/essential-manners.jpg');
-        background-position:top ;
+
+    .leader-img {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/pictures\ for\ Upcoming\ Events/essential-manners.jpg');
+        background-position: top;
         background-size: cover;
     }
-    .profile-description-img{
-        background:linear-gradient( to left,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../images/bg1\ \(1\).png');
+
+    .profile-description-img {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/bg1\ \(1\).png');
         background-position: top;
         height: 500px;
         background-size: cover;
         background-repeat: no-repeat;
         padding: 15px;
     }
-    .special-approach{
-        background: linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../images/coaching-mobile.png');
+
+    .special-approach {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coaching-mobile.png');
         background-size: cover;
-        background-position:top;
+        background-position: top;
         background-repeat: no-repeat;
         height: 100vh;
         display: flex;
@@ -221,13 +263,17 @@
         align-items: center;
         padding: 20px;
     }
+
     /* .description-img{
         height: 100% !important;
         width: auto !important;
     } */
+    .grid-sizer,
+    .grid-item { width: 100%;}
 }
-@media only screen and (max-width:500px){
-    .special-approach-btn--fill  a {
+
+@media only screen and (max-width:500px) {
+    .special-approach-btn--fill a {
         padding: 10px 20px;
         background-color: var(--primary);
         font-size: 18px;
@@ -236,14 +282,15 @@
         text-decoration: none;
         border: 2px solid var(--primary);
     }
-    .description{
-        padding: 30px ;
-      
+
+    .description {
+        padding: 30px;
+
     }
-   
-    .special-approach-btn--blank  a {
+
+    .special-approach-btn--blank a {
         padding: 10px 20px;
-        background-color:transparent;
+        background-color: transparent;
         font-size: 18px;
         color: white;
         font-weight: 600;
@@ -251,67 +298,84 @@
         border: 2px solid white;
         width: 100%;
     }
-    
-    .special-approach h1{
+
+    .special-approach h1 {
         font-size: 23px;
-   
-      }
-    .header-navbar{
-       
-        padding: 13px 15px !important ;
+
     }
-    .comment{
-        padding:20px 10px;
+
+    .header-navbar {
+
+        padding: 13px 15px !important;
     }
-    .nav-link{
+
+    .comment {
+        padding: 20px 10px;
+    }
+
+    .nav-link {
         padding: 20px 30px !important;
     }
-    .course-card .text{
-        padding: 45px 10px 30px 10px ;
+
+    .course-card .text {
+        padding: 45px 10px 30px 10px;
     }
-    .number-nav{
-      display: none;
+
+    .number-nav {
+        display: none;
     }
-    .navbar-heading{
+
+    .navbar-heading {
         font-size: 25px;
         line-height: 28px;
     }
-    .navbar-btn{
-padding: 15px 35px !important;
+
+    .navbar-btn {
+        padding: 15px 35px !important;
     }
-    .carousel-caption{
+
+    .carousel-caption {
         left: 15%;
     }
-    .carousel-social{
+
+    .carousel-social {
         top: 38%;
     }
-    .main-heading{
+
+    .main-heading {
         font-size: 28px;
     }
-    .second-heading{
-      
+
+    .second-heading {
+
         font-size: 18px;
-      
+
     }
-    .subscribe-row{
+
+    .subscribe-row {
         flex-direction: column !important;
 
     }
-    .news-input{
+
+    .news-input {
         width: 100%;
         margin-bottom: 15px;
     }
-    .subscribe-btn{
+
+    .subscribe-btn {
         width: 100%;
         text-align: center;
     }
-    .social-contact-row{
+
+    .social-contact-row {
         justify-content: center !important;
         margin-top: 20px;
     }
-    .books-text{
+
+    .books-text {
         margin-top: 0px;
     }
+
     /* .description-img{
         height: 100% !important;
         width: auto !important;

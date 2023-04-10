@@ -1334,15 +1334,21 @@ padding: 6px 5px;
 }
 .search-div input{
     background-color: var(--gray);
-    font-size: 16px;
+    font-size: 18px;
     color: var(--black-text);
     border: none;
     border-radius: 3px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     width: 100%;
+    font-weight: 600;
+    border: 2px solid var(--gray);
+
+}
+.search-div input:focus{
+outline: none !important;
 }
 .search-div  i{
-    font-size: 16px;
+    font-size: 20px;
     color: var(--black-text);
     position: absolute;
     right: 20px;
@@ -1501,4 +1507,34 @@ padding: 6px 5px;
   font-size: 25px;
   color: white;
   line-height: 15px;
+}
+
+.news-img{
+    background:linear-gradient( to left,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+    height: 85vh;
+    width: 100%;
+    background-position:top ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.news-img img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 85vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* =====================================masonry */
+.grid-sizer,
+.grid-item { width: 33%;}
+/* 2 columns wide */
+.grid-item--width2 { width: 40%; }
+.news-blog img{
+    min-height: 265px;
 }
