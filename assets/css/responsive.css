@@ -75,8 +75,18 @@
         width: 45px;
         padding: 0px !important;
     }
+    .main-heading{
+        font-size: 30px;
+    }
 }
-
+@media only screen and (max-width:1024px){
+    .width-25{
+        width: 50%;
+        /* min-height: 400px; */
+        /* background-color: red; */
+    
+    }
+}
 @media only screen and (max-width:991px) {
     .event-col {
         padding-right: calc(var(--bs-gutter-x) * .5) !important;
@@ -273,6 +283,18 @@
 }
 
 @media only screen and (max-width:500px) {
+    .width-25{
+        width: 100%;
+        /* min-height: 400px; */
+        /* background-color: red; */
+    
+    }
+    .image{
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
     .special-approach-btn--fill a {
         padding: 10px 20px;
         background-color: var(--primary);
