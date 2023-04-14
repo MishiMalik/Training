@@ -1544,12 +1544,18 @@ body {
 .search-div input:focus {
     outline: none !important;
 }
+.search-news{
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 20px;
+}
 
 .search-div i {
     font-size: 20px;
     color: var(--black-text);
-    position: absolute;
-    right: 20px;
+    
 }
 
 .chat-icon {
