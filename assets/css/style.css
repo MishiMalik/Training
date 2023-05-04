@@ -5,7 +5,10 @@ body {
     font-family: 'Martel', serif;
     /* font-family: 'Courgette', cursive; */
 }
-
+@font-face {
+    font-family: span;
+    src: url(/assets/span-fonts/Fontspring-DEMO-span-regular.otf);
+}
 .font-cour {
     font-family: 'Courgette', cursive;
 }
@@ -1538,11 +1541,28 @@ body {
     width: 100%;
     font-weight: 600;
     border: 2px solid var(--gray);
-
+    position: relative;
+    z-index: 4;
 }
 
 .search-div input:focus {
     outline: none !important;
+}
+.search-div2 {
+    position: relative;
+}
+.search-div2 input {
+    background-color: var(--gray);
+    font-size: 18px;
+    color: var(--black-text);
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    padding: 10px 15px;
+    width: 100%;
+    font-weight: 600;
+    border: 2px solid var(--gray);
+    position: relative;
+    z-index: 4;
 }
 .search-news{
     padding: 0px;
@@ -1551,7 +1571,35 @@ body {
     position: absolute;
     right: 20px;
 }
-
+.search-view-btn{
+    padding: 12px 20px 11px 30px;
+    background-color: var(--primary);
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid var(--primary);
+    position: relative;
+    z-index: 1;
+    margin-left: -10px;
+    border-radius: 3px;
+}
+.search-div2 input:focus {
+    outline: none !important;
+}
+.search-div2 i {
+    font-size: 20px;
+    color: var(--black-text);
+    
+}
+.search-news{
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 25px;
+    z-index: 4;
+}
 .search-div i {
     font-size: 20px;
     color: var(--black-text);
@@ -1830,11 +1878,13 @@ body {
     line-height: 1.3em;
     font-weight: 500;
     color: white;
+    font-family: span !important;
 }
 .image-content h3{
     font-size:16px;
     font-weight: 400;
     color: white;
+    font-family: span !important;
 }
 .image-content i{
     font-size:25px;

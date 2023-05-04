@@ -196,6 +196,6 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-document.getElementById("defaultOpen").click();
+$("#defaultOpen").click();
 
 
