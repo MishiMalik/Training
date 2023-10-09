@@ -23,6 +23,18 @@
         rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <!-- <link rel="stylesheet" href="assets/span-fonts/Fontspring-DEMO-span-regular.otf"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    //        window.onload = () => {
+    //     $('#onload').modal('show');
+    // }
+
+    $(document).ready(function() {
+        $('#onload').modal('show');
+    })
+    </script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -100,21 +112,21 @@
                     data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/images/top-slider/top1 (2).png" data-src="assets/images/top-slider/top1 (2).png" data-lazy class=" w-100 img-desktop" alt="..." >
-                            <img src="assets/images/top-slider/top1 (2) - Copy.png" data-src="assets/images/top-slider/top1 (2) - Copy.png" data-lazy class=" w-100 img-mobile" alt="..." >
-                            <div class="carousel-caption ">
-                                <div>
+                            <img  data-src="assets/images/top-slider/top1 (2).png"  class=" w-100 img-desktop lazy" alt="..." >
+                            <img data-src="assets/images/top-slider/top1 (2) - Copy.png"  class=" w-100 img-mobile lazy" alt="..." >
+                            <div class="carousel-caption w-100">
+                                <div class="w-100">
                                     <h1 class="navbar-heading mb-0 pb-0">
                                         <!-- Personal Growth With Zeeshan -->
                                         Your Personal<br> Development Coach
                                     </h1>
                                 </div>
-                                <div>
+                                <div class="w-100">
                                     <h4 class="navbar-text text-white p-0 m-0">
                                         Personal Development Coaching
                                     </h4>
                                 </div>
-                                <div class="my-3">
+                                <div class="my-3 w-100">
                                     <p class="mb-0 pb-0 qualification text-start">
                                         Chartered <span class="text-primary"> MCIPD </span> (UK).
                                     </p>
@@ -126,7 +138,7 @@
                                     </p>
                                 </div>
 
-                                <div>
+                                <div class="w-100">
                                     <a href=""><button class="navbar-btn mt-3">Contact me</button></a>
                                 </div>
                             </div>
@@ -148,8 +160,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/top-slider/top1 (1).png" data-src="assets/images/top-slider/top1 (1).png" data-lazy  class="img-desktop w-100" alt="...">
-                            <img src="assets/images/top-slider/top1 (1) - Copy.png" data-src="assets/images/top-slider/top1 (1) - Copy.png" data-lazy  class="img-mobile w-100" alt="...">
+                            <img  data-src="assets/images/top-slider/top1 (1).png"   class="img-desktop w-100 lazy" alt="...">
+                            <img  data-src="assets/images/top-slider/top1 (1) - Copy.png"   class="img-mobile w-100 lazy" alt="...">
                            
                             <div class="carousel-caption ">
                                 <div>
@@ -196,8 +208,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/top-slider/top1 (3).png"  data-src="assets/images/top-slider/top1 (3).png" data-lazy class="img-desktop  w-100" alt="...">
-                            <img src="assets/images/top-slider/top1 (3) - Copy.png"  data-src="assets/images/top-slider/top1 (3) - Copy.png" data-lazy class="img-mobile  w-100" alt="...">
+                            <img   data-src="assets/images/top-slider/top1 (3).png"  class="img-desktop lazy w-100" alt="...">
+                            <img   data-src="assets/images/top-slider/top1 (3) - Copy.png"  class="img-mobile lazy w-100" alt="...">
                           
                             <div class="carousel-caption ">
                                 <div>
@@ -264,7 +276,7 @@
                         <div>
                             <div class="upcoming-card">
                                 <img src="assets/images/pictures for Upcoming Events/paths to power (2).jpg" alt=""
-                                    class="img-fluid" data-src="assets/images/pictures for Upcoming Events/paths to power (2).jpg" data-lazy>
+                                    class="img-fluid" data-src="assets/images/pictures for Upcoming Events/paths to power (2).jpg" >
                                 
                                 <div class="upcoming-date">
                                     <h1 class="m-0 p-0">20</h1>
@@ -1294,16 +1306,305 @@
 
 
 
-
+    <div class="modal fade" id="onload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- Add this line to your code -->
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-flex  justify-content-between align-items-start">
+                    <div class="d-flex flex-column justify-content-start align-items-start">
+                    <h5 class="modal-title mb-0 p-0 f-16 w-600 text-primary">Get a Free Consultation!</h5>
+                    <p class="f-14 mb-0 pb-0 f-14 w-500 text-black">Please Fill this Form</p>
+                </div>
+                    <i class="bi bi-x-circle f-20" data-bs-dismiss="modal" style="cursor: pointer;"></i>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class=" news-input w-100 f-14" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                          </div>
+                        <div class="mb-3">
+                          <input type="email" class=" news-input w-100 f-14" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select news-input w-100 f-14" id="country" name="country">
+                                <option>select country</option>
+                                <option value="AF">Afghanistan</option>
+                                <option value="AX">Aland Islands</option>
+                                <option value="AL">Albania</option>
+                                <option value="DZ">Algeria</option>
+                                <option value="AS">American Samoa</option>
+                                <option value="AD">Andorra</option>
+                                <option value="AO">Angola</option>
+                                <option value="AI">Anguilla</option>
+                                <option value="AQ">Antarctica</option>
+                                <option value="AG">Antigua and Barbuda</option>
+                                <option value="AR">Argentina</option>
+                                <option value="AM">Armenia</option>
+                                <option value="AW">Aruba</option>
+                                <option value="AU">Australia</option>
+                                <option value="AT">Austria</option>
+                                <option value="AZ">Azerbaijan</option>
+                                <option value="BS">Bahamas</option>
+                                <option value="BH">Bahrain</option>
+                                <option value="BD">Bangladesh</option>
+                                <option value="BB">Barbados</option>
+                                <option value="BY">Belarus</option>
+                                <option value="BE">Belgium</option>
+                                <option value="BZ">Belize</option>
+                                <option value="BJ">Benin</option>
+                                <option value="BM">Bermuda</option>
+                                <option value="BT">Bhutan</option>
+                                <option value="BO">Bolivia</option>
+                                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                <option value="BA">Bosnia and Herzegovina</option>
+                                <option value="BW">Botswana</option>
+                                <option value="BV">Bouvet Island</option>
+                                <option value="BR">Brazil</option>
+                                <option value="IO">British Indian Ocean Territory</option>
+                                <option value="BN">Brunei Darussalam</option>
+                                <option value="BG">Bulgaria</option>
+                                <option value="BF">Burkina Faso</option>
+                                <option value="BI">Burundi</option>
+                                <option value="KH">Cambodia</option>
+                                <option value="CM">Cameroon</option>
+                                <option value="CA">Canada</option>
+                                <option value="CV">Cape Verde</option>
+                                <option value="KY">Cayman Islands</option>
+                                <option value="CF">Central African Republic</option>
+                                <option value="TD">Chad</option>
+                                <option value="CL">Chile</option>
+                                <option value="CN">China</option>
+                                <option value="CX">Christmas Island</option>
+                                <option value="CC">Cocos (Keeling) Islands</option>
+                                <option value="CO">Colombia</option>
+                                <option value="KM">Comoros</option>
+                                <option value="CG">Congo</option>
+                                <option value="CD">Congo, Democratic Republic of the Congo</option>
+                                <option value="CK">Cook Islands</option>
+                                <option value="CR">Costa Rica</option>
+                                <option value="CI">Cote D'Ivoire</option>
+                                <option value="HR">Croatia</option>
+                                <option value="CU">Cuba</option>
+                                <option value="CW">Curacao</option>
+                                <option value="CY">Cyprus</option>
+                                <option value="CZ">Czech Republic</option>
+                                <option value="DK">Denmark</option>
+                                <option value="DJ">Djibouti</option>
+                                <option value="DM">Dominica</option>
+                                <option value="DO">Dominican Republic</option>
+                                <option value="EC">Ecuador</option>
+                                <option value="EG">Egypt</option>
+                                <option value="SV">El Salvador</option>
+                                <option value="GQ">Equatorial Guinea</option>
+                                <option value="ER">Eritrea</option>
+                                <option value="EE">Estonia</option>
+                                <option value="ET">Ethiopia</option>
+                                <option value="FK">Falkland Islands (Malvinas)</option>
+                                <option value="FO">Faroe Islands</option>
+                                <option value="FJ">Fiji</option>
+                                <option value="FI">Finland</option>
+                                <option value="FR">France</option>
+                                <option value="GF">French Guiana</option>
+                                <option value="PF">French Polynesia</option>
+                                <option value="TF">French Southern Territories</option>
+                                <option value="GA">Gabon</option>
+                                <option value="GM">Gambia</option>
+                                <option value="GE">Georgia</option>
+                                <option value="DE">Germany</option>
+                                <option value="GH">Ghana</option>
+                                <option value="GI">Gibraltar</option>
+                                <option value="GR">Greece</option>
+                                <option value="GL">Greenland</option>
+                                <option value="GD">Grenada</option>
+                                <option value="GP">Guadeloupe</option>
+                                <option value="GU">Guam</option>
+                                <option value="GT">Guatemala</option>
+                                <option value="GG">Guernsey</option>
+                                <option value="GN">Guinea</option>
+                                <option value="GW">Guinea-Bissau</option>
+                                <option value="GY">Guyana</option>
+                                <option value="HT">Haiti</option>
+                                <option value="HM">Heard Island and Mcdonald Islands</option>
+                                <option value="VA">Holy See (Vatican City State)</option>
+                                <option value="HN">Honduras</option>
+                                <option value="HK">Hong Kong</option>
+                                <option value="HU">Hungary</option>
+                                <option value="IS">Iceland</option>
+                                <option value="IN">India</option>
+                                <option value="ID">Indonesia</option>
+                                <option value="IR">Iran, Islamic Republic of</option>
+                                <option value="IQ">Iraq</option>
+                                <option value="IE">Ireland</option>
+                                <option value="IM">Isle of Man</option>
+                                <option value="IL">Israel</option>
+                                <option value="IT">Italy</option>
+                                <option value="JM">Jamaica</option>
+                                <option value="JP">Japan</option>
+                                <option value="JE">Jersey</option>
+                                <option value="JO">Jordan</option>
+                                <option value="KZ">Kazakhstan</option>
+                                <option value="KE">Kenya</option>
+                                <option value="KI">Kiribati</option>
+                                <option value="KP">Korea, Democratic People's Republic of</option>
+                                <option value="KR">Korea, Republic of</option>
+                                <option value="XK">Kosovo</option>
+                                <option value="KW">Kuwait</option>
+                                <option value="KG">Kyrgyzstan</option>
+                                <option value="LA">Lao People's Democratic Republic</option>
+                                <option value="LV">Latvia</option>
+                                <option value="LB">Lebanon</option>
+                                <option value="LS">Lesotho</option>
+                                <option value="LR">Liberia</option>
+                                <option value="LY">Libyan Arab Jamahiriya</option>
+                                <option value="LI">Liechtenstein</option>
+                                <option value="LT">Lithuania</option>
+                                <option value="LU">Luxembourg</option>
+                                <option value="MO">Macao</option>
+                                <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+                                <option value="MG">Madagascar</option>
+                                <option value="MW">Malawi</option>
+                                <option value="MY">Malaysia</option>
+                                <option value="MV">Maldives</option>
+                                <option value="ML">Mali</option>
+                                <option value="MT">Malta</option>
+                                <option value="MH">Marshall Islands</option>
+                                <option value="MQ">Martinique</option>
+                                <option value="MR">Mauritania</option>
+                                <option value="MU">Mauritius</option>
+                                <option value="YT">Mayotte</option>
+                                <option value="MX">Mexico</option>
+                                <option value="FM">Micronesia, Federated States of</option>
+                                <option value="MD">Moldova, Republic of</option>
+                                <option value="MC">Monaco</option>
+                                <option value="MN">Mongolia</option>
+                                <option value="ME">Montenegro</option>
+                                <option value="MS">Montserrat</option>
+                                <option value="MA">Morocco</option>
+                                <option value="MZ">Mozambique</option>
+                                <option value="MM">Myanmar</option>
+                                <option value="NA">Namibia</option>
+                                <option value="NR">Nauru</option>
+                                <option value="NP">Nepal</option>
+                                <option value="NL">Netherlands</option>
+                                <option value="AN">Netherlands Antilles</option>
+                                <option value="NC">New Caledonia</option>
+                                <option value="NZ">New Zealand</option>
+                                <option value="NI">Nicaragua</option>
+                                <option value="NE">Niger</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="NU">Niue</option>
+                                <option value="NF">Norfolk Island</option>
+                                <option value="MP">Northern Mariana Islands</option>
+                                <option value="NO">Norway</option>
+                                <option value="OM">Oman</option>
+                                <option value="PK">Pakistan</option>
+                                <option value="PW">Palau</option>
+                                <option value="PS">Palestinian Territory, Occupied</option>
+                                <option value="PA">Panama</option>
+                                <option value="PG">Papua New Guinea</option>
+                                <option value="PY">Paraguay</option>
+                                <option value="PE">Peru</option>
+                                <option value="PH">Philippines</option>
+                                <option value="PN">Pitcairn</option>
+                                <option value="PL">Poland</option>
+                                <option value="PT">Portugal</option>
+                                <option value="PR">Puerto Rico</option>
+                                <option value="QA">Qatar</option>
+                                <option value="RE">Reunion</option>
+                                <option value="RO">Romania</option>
+                                <option value="RU">Russian Federation</option>
+                                <option value="RW">Rwanda</option>
+                                <option value="BL">Saint Barthelemy</option>
+                                <option value="SH">Saint Helena</option>
+                                <option value="KN">Saint Kitts and Nevis</option>
+                                <option value="LC">Saint Lucia</option>
+                                <option value="MF">Saint Martin</option>
+                                <option value="PM">Saint Pierre and Miquelon</option>
+                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                <option value="WS">Samoa</option>
+                                <option value="SM">San Marino</option>
+                                <option value="ST">Sao Tome and Principe</option>
+                                <option value="SA">Saudi Arabia</option>
+                                <option value="SN">Senegal</option>
+                                <option value="RS">Serbia</option>
+                                <option value="CS">Serbia and Montenegro</option>
+                                <option value="SC">Seychelles</option>
+                                <option value="SL">Sierra Leone</option>
+                                <option value="SG">Singapore</option>
+                                <option value="SX">Sint Maarten</option>
+                                <option value="SK">Slovakia</option>
+                                <option value="SI">Slovenia</option>
+                                <option value="SB">Solomon Islands</option>
+                                <option value="SO">Somalia</option>
+                                <option value="ZA">South Africa</option>
+                                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                <option value="SS">South Sudan</option>
+                                <option value="ES">Spain</option>
+                                <option value="LK">Sri Lanka</option>
+                                <option value="SD">Sudan</option>
+                                <option value="SR">Suriname</option>
+                                <option value="SJ">Svalbard and Jan Mayen</option>
+                                <option value="SZ">Swaziland</option>
+                                <option value="SE">Sweden</option>
+                                <option value="CH">Switzerland</option>
+                                <option value="SY">Syrian Arab Republic</option>
+                                <option value="TW">Taiwan, Province of China</option>
+                                <option value="TJ">Tajikistan</option>
+                                <option value="TZ">Tanzania, United Republic of</option>
+                                <option value="TH">Thailand</option>
+                                <option value="TL">Timor-Leste</option>
+                                <option value="TG">Togo</option>
+                                <option value="TK">Tokelau</option>
+                                <option value="TO">Tonga</option>
+                                <option value="TT">Trinidad and Tobago</option>
+                                <option value="TN">Tunisia</option>
+                                <option value="TR">Turkey</option>
+                                <option value="TM">Turkmenistan</option>
+                                <option value="TC">Turks and Caicos Islands</option>
+                                <option value="TV">Tuvalu</option>
+                                <option value="UG">Uganda</option>
+                                <option value="UA">Ukraine</option>
+                                <option value="AE">United Arab Emirates</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="US">United States</option>
+                                <option value="UM">United States Minor Outlying Islands</option>
+                                <option value="UY">Uruguay</option>
+                                <option value="UZ">Uzbekistan</option>
+                                <option value="VU">Vanuatu</option>
+                                <option value="VE">Venezuela</option>
+                                <option value="VN">Viet Nam</option>
+                                <option value="VG">Virgin Islands, British</option>
+                                <option value="VI">Virgin Islands, U.s.</option>
+                                <option value="WF">Wallis and Futuna</option>
+                                <option value="EH">Western Sahara</option>
+                                <option value="YE">Yemen</option>
+                                <option value="ZM">Zambia</option>
+                                <option value="ZW">Zimbabwe</option>
+                            </select>
+                          </div>
+                          <div class="mb-3">
+                            <input type="email" class=" news-input w-100 f-14" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+                          </div>
+                          <div class="mb-3">
+                           <textarea class=" news-input w-100 f-14 pt-3" name="" id="" style="width: 100%;" rows="5" placeholder="Educational Background"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="subscribe-btn py-2 px-0 f-18 text-center" style="width: 100px;" data-bs-dismiss="modal">Submit</button>
+                        </div>
+                      </form>
+                </div>
+             
+            </div>
+        </div>
+    </div>
 
 
     <!--bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
         integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
@@ -1323,24 +1624,44 @@
         });
     </script>
     <script>
-        // Lazy Load Images using Intersection Observer
-(function () {
-	var observer = new IntersectionObserver(onIntersect);
+        // Set up an intersection observer with some options
+        var observer = new IntersectionObserver(lazyLoad, {
 
-	document.querySelectorAll("[data-lazy]").forEach((img) => {
-		observer.observe(img);
-	});
+            // where in relation to the edge of the viewport, we are observing
+            rootMargin: "100px",
 
-	function onIntersect(entries) {
-		entries.forEach((entry) => {
-			if (entry.target.getAttribute("data-processed") || !entry.isIntersecting)
-				return true;
-			entry.target.setAttribute("src", entry.target.getAttribute("data-src"));
-			entry.target.setAttribute("data-processed", true);
-		});
-	}
-})();
+            // how much of the element needs to have intersected 
+            // in order to fire our loading function
+            threshold: 1.0
 
+            
+
+        });
+
+        function lazyLoad(elements) {
+            elements.forEach(image => {
+                if (image.intersectionRatio > 0) {
+
+                    // set the src attribute to trigger a load
+                    image.src = image.dataset.src;
+
+                    // stop observing this element. Our work here is done!
+                    observer.unobserve(item.target);
+                };
+            });
+        };
+
+
+
+
+        // Tell our observer to observe all img elements with a "lazy" class
+        var lazyImages = document.querySelectorAll('img.lazy');
+        lazyImages.forEach(img => {
+            img.src = img.dataset.src;
+            observer.observe(img);
+
+        });
+       
     </script>
 </body>
 

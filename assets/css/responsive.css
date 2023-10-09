@@ -105,6 +105,9 @@
 }
 
 @media only screen and (max-width:767px) {
+    .video-course{
+        height: 260px;
+    }
     .search-view-btn{
         padding: 13px 10px 13px 15px;
         background-color: var(--primary);
@@ -381,9 +384,18 @@
     .navbar-btn {
         padding: 15px 35px !important;
     }
+    .carousel-item{
+        position: relative;
+    }
 
     .carousel-caption {
-        left: 15%;
+        /* left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        top: 0 !important; */
+        padding-left: 15%;
+        /* background-color: rgba(0, 0, 0, 0.466); */
+
     }
 
     .carousel-social {

@@ -1,5 +1,7 @@
 
-
+    // window.onload = () => {
+    //     $('#onload').modal('show');
+    // }
 // =======================================hide-show
 // function hide() {
 //   var element = document.getElementById("navbarSupportedContent");

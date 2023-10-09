@@ -307,14 +307,21 @@ body {
 
 .carousel-item {
     height: 100vh !important;
+    width: 100%;
+     background-color: red;
 }
-
+.carousel-inner{
+    width: 100%;
+   
+}
 .carousel-item img {
     height: 100vh !important;
     animation: mover 10s;
     width: 100%;
     object-fit: cover;
     object-position: top;
+    background-color: black !important;
+    z-index: -1 !important;
 }
 
 @keyframes mover {
@@ -332,6 +339,14 @@ body {
     top: 0;
     left: 12%;
 
+/* 
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    top: 0 !important; */
+    /* padding-left: 15%; */
+    /* background-color: rgba(0, 0, 0, 0.466); */
+
     bottom: 0;
     height: 100%;
     width: 100%;
@@ -340,7 +355,7 @@ body {
     align-items: flex-start;
     flex-direction: column;
     overflow: hidden !important;
-    max-width: fit-content;
+    /* max-width: fit-content; */
 }
 
 .navbar-heading {
@@ -1891,4 +1906,13 @@ body {
     line-height: 1.3em;
     font-weight: 600;
     color: white;
+}
+
+
+.form-label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.video-course{
+    height: 360px;
 }
